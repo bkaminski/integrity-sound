@@ -1,0 +1,29 @@
+{
+  "name": "integrity-sound",
+  "version": "1.0.0",
+  "description": "Custom WP theme designed exclusively for Integrity Sound Solutions",
+  "main": "index.php",
+  "scripts": {
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkaminski/integrity-sound.git"
+  },
+  "keywords": [
+    "wordpress",
+    "bootstrap",
+    "node",
+    "gulp",
+    "sass",
+    "business",
+    "website",
+    "portal"
+  ],
+  "author": "Ben Kaminski <ben@benkaminski.com> (https://benkaminski.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkaminski/integrity-sound/issues"
+  },
+  "homepage": "https://github.com/bkaminski/integrity-sound#readme"
+}
