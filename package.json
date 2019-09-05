@@ -21,12 +21,25 @@
     "portal"
   ],
   "author": "Ben Kaminski <ben@benkaminski.com> (https://benkaminski.com)",
-  "license": "ISC",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/bkaminski/integrity-sound/issues"
   },
   "homepage": "https://github.com/bkaminski/integrity-sound#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+	"gulp-cli": "*",
+    "gulp-load-plugins": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-notify": "*",
+    "gulp-concat": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-plumber": "*",
+    "gulp-watch": "*",
+    "gulp-util": "*",
+    "gulp-autoprefixer": "*",
+    "bourbon": "*"
   }
 }
