@@ -1,2 +1,2 @@
 var $ = jQuery.noConflict();
-$();
+
