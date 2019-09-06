@@ -19,7 +19,7 @@
 <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/img/manifest.json">
 <meta name="msapplication-TileColor" content="#e9e9e9">
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/img/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#e9e9e9">
 <?php wp_head(); ?>
 
 </head>
