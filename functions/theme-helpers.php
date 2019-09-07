@@ -76,3 +76,5 @@ function excerpt_read_more_link($output)
 }
 add_filter('the_excerpt', 'excerpt_read_more_link');
 //END READ MORE BUTTON
+//REMOVE COMMENTS FEED RSS
+add_filter( 'feed_links_show_comments_feed', '__return_false' );
