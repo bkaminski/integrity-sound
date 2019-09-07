@@ -21,6 +21,5 @@
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/img/ms-icon-144x144.png">
 <meta name="theme-color" content="#e9e9e9">
 <?php wp_head(); ?>
-
 </head>
 <body <?php body_class(); ?>>
