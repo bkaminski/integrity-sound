@@ -75,6 +75,14 @@ function excerpt_read_more_link($output)
     return $output . '<a class="btn btn-lg btn-success text-uppercase" href="' . get_permalink() . '">Read More <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>';
 }
 add_filter('the_excerpt', 'excerpt_read_more_link');
-//END READ MORE BUTTON
 //REMOVE COMMENTS FEED RSS
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
+//REMOVE JSON API
+remove_action( 'wp_head', 'rest_output_link_wp_head');
+remove_action( 'wp_head', 'wp_oembed_add_discovery_links');
+remove_action( 'template_redirect', 'rest_output_link_header', 11);
+//REMOVE WP VERSION FROM CODE
+function intSound_remove_version() {
+return '';
+}
+add_filter('the_generator', 'intSound_remove_version');
