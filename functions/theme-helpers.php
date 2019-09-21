@@ -92,3 +92,5 @@ if (defined('WPSEO_VERSION')) {
  return preg_replace('/^\n?<!--.*?[Y]oast.*?-->\n?$/mi','',$o);
  }); },~PHP_INT_MAX);
 }
+//AUTO UPDATE PLUGINS
+add_filter( 'auto_update_plugin', '__return_true' );
