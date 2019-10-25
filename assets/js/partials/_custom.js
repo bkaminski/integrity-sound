@@ -13,9 +13,3 @@
 })( jQuery );
 
 
-
-(function( $ ) {
-
-
-
-})( jQuery );

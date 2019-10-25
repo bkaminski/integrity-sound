@@ -14,3 +14,10 @@ function enqueue_integral_styles() {
     wp_enqueue_style('integral-styles', get_template_directory_uri() . '/assets/styles/intSoundStyles.min.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_integral_styles');
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'superfluous-nomenclature' ),
+) );
+// Nav Walker

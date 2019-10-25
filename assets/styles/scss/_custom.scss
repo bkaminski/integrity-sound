@@ -1,3 +1,25 @@
+.iss-navbar {
+	background: #3b4449;
+	height: 150px;
+	transition: 0.4s ease-in-out;
+	padding-top: 10px;
+}
+.iss-navbar > .show {
+	
+}
+.shrink {
+	height: 80px;
+	transition: 0.4s ease-in-out;
+	font-size: 0.75em;
+}
+.iss-nav-logo {
+	width: 289px;
+	transition: 0.4s ease-in-out;
+}
+.shrink .iss-nav-logo {
+	width: 150px;
+	transition: 0.4s ease-in-out;
+}
 
 /* Contact Form 7 Styles */
 div.wpcf7-validation-errors, 
