@@ -1,6 +1,6 @@
 /node_modules
 /assets/img
+/assets/js/scripts.js
 gulpfile.js
 screenshot.png
-/assets/js/scripts.js
 class-wp-bootstrap-navwalker.php
