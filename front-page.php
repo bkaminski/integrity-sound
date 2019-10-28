@@ -1,7 +1,16 @@
 <?php get_header(); ?>
-<div class="contaner" style="height: 2200px;">
 
+<?php get_template_part( 'parts/home', 'hero-area' ); ?>
 
-</div>
+<?php get_template_part( 'parts/home', 'about' ); ?>
+
+<?php get_template_part( 'parts/home', 'highlight' ); ?>
+
+<?php get_template_part( 'parts/home', 'process' ); ?>
+
+<?php get_template_part( 'parts/home', 'integrity' ); ?>
+
+<?php get_template_part( 'parts/page', 'cta' ); ?>
 
 <?php get_footer(); ?>
+

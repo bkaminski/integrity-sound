@@ -18,26 +18,32 @@
 	width: 150px;
 	transition: 0.4s ease-in-out;
 }
-
-/* Contact Form 7 Styles */
-div.wpcf7-validation-errors, 
-div.wpcf7-acceptance-missing {
-    border: 2px solid #f7e700;
-    background: orange;
-    padding: 10px;
-	font-weight: bold;
+.hero-area {
+	min-height: 700px;
+	background: #222;
+	background-image: url('../../../../uploads/2019/10/technology-1575496_1920.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
 }
-div.wpcf7-mail-sent-ng, 
-div.wpcf7-aborted {
-    border: 2px solid #ff0000;
-    background: red;
-    padding: 10px;
-    font-weight: bold;
+.home-about {
+	min-height: 280px;
+	background: #81db6d;
 }
-div.wpcf7-mail-sent-ok {
-	color: #fff;
-    border: 2px solid #398f14;
-    background: green;
-    padding: 10px;
-    font-weight: bold;
+.home-highlight {
+	min-height: 700px;
+	background: #fff;
+}
+.home-process {
+	min-height: 700px;
+	background: #ccc;
+	margin-bottom: -15px;
+}
+.home-showcase {
+	min-height: 600px;
+	background: #222;
+}
+.call-to-action {
+	min-height: 300px;
+	background: #2e5266;
 }

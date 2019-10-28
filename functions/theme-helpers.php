@@ -94,3 +94,8 @@ if (defined('WPSEO_VERSION')) {
 }
 //AUTO UPDATE PLUGINS
 add_filter( 'auto_update_plugin', '__return_true' );
+//DISABLE WP BLOCK LIBRARY CSS
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_dequeue_style( 'wp-block-library' );
+}
