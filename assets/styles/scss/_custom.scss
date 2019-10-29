@@ -3,6 +3,7 @@
 	height: 150px;
 	transition: 0.4s ease-in-out;
 	padding-top: 10px;
+	border-bottom: 2px solid #81db6d;
 }
 
 .shrink {
@@ -19,7 +20,7 @@
 	transition: 0.4s ease-in-out;
 }
 .hero-area {
-	min-height: 700px;
+	min-height: 800px;
 	background: #222;
 	background-image: url('../../../../uploads/2019/10/technology-1575496_1920.jpg');
 	background-repeat: no-repeat;
@@ -32,18 +33,28 @@
 }
 .home-highlight {
 	min-height: 700px;
-	background: #fff;
+	background: #888;
 }
 .home-process {
 	min-height: 700px;
-	background: #ccc;
+	background: #2e5266;
 	margin-bottom: -15px;
 }
 .home-showcase {
 	min-height: 600px;
-	background: #222;
+	background: #101010;
 }
 .call-to-action {
 	min-height: 300px;
-	background: #2e5266;
+	background: #303030;
+	border-top: 2px solid #81db6d;
+}
+
+.footer {
+	background: #202020;
+	min-height: 150px;
+}
+.sub-footer {
+	background: #3b4449;
+	min-height: 2em;
 }
