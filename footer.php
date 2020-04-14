@@ -10,7 +10,7 @@
 	</div>
 </footer>
 <div class="sub-footer">
-		<div class="container pt-3 pb-2">
+		<div class="container pt-4 pb-2">
 			<p class="text-center text-light small">Copyright &copy; <?php echo date('Y'); ?> Integrity Sound Solutions, LLC</p>
 		</div>
 	</div>
