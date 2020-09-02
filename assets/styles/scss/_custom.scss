@@ -5,15 +5,20 @@
 	padding-top: 10px;
 	border-bottom: 2px solid #81db6d;
 }
-
+.intro {
+	padding-top: 10rem;
+}
 .shrink {
 	height: 80px;
 	transition: 0.4s ease-in-out;
 	font-size: 0.75em;
 }
 .iss-nav-logo {
-	width: 289px;
+	width: 220px;
 	transition: 0.4s ease-in-out;
+	@include breakpoint (sm) {
+		width: 289px;
+	}
 }
 .shrink .iss-nav-logo {
 	width: 150px;
@@ -22,7 +27,6 @@
 .hero-area {
 	min-height: 800px;
 	background: #222;
-	background-image: url('../../../../uploads/2019/10/technology-1575496_1920.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
