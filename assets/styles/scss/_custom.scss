@@ -36,8 +36,16 @@
 	background: #81db6d;
 }
 .home-highlight {
-	min-height: 700px;
+	min-height: 100px;
 	background: #888;
+}
+.kill-x-padding {
+	padding-right: 0px; 
+	padding-left: 0px;
+}
+.kill-x-margins {
+	margin-left: -15px;
+	margin-right: -15px;
 }
 .home-process {
 	min-height: 700px;

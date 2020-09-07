@@ -5,6 +5,6 @@
 				<?php the_field('mission_statement'); ?>
 
 			</div>
-		<button class="btn btn-outline-light btn-lg rounded-0 text-uppercase">More about us</button>
+		<button class="btn btn-outline-light btn-lg pl-5 pr-5 pt-2 pb-2 rounded-0 text-uppercase">More about us</button>
 	</div>
 </main>

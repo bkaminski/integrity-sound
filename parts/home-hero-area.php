@@ -4,7 +4,7 @@
 		
 		<div class="clearfix"></div>
 
-		<p class="h5"><?php the_field('home_descriptive_text'); ?></p>
+		<p><?php the_field('home_descriptive_text'); ?></p>
 
 		<div class="clearfix"></div>
 		<a href="#" class="btn btn-lg btn-outline-light mt-5 rounded-0 pl-5 pr-5 pt-2 pb-2 text-uppercase">Our Services</a>
