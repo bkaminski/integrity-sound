@@ -1,10 +1,9 @@
 <footer class="footer text-center">
-	<div class="container-fluid pb-2 pt-4">
+	<div class="container pt-5 pb-5">
 		<address class="text-center text-white">
 			<strong>Integrity Sound Solutions</strong>
 			<br />
-			<p>3395 S. DuPont Hwy<br />
-			Camden, DE 19934<br />
+			<p>Camden, DE 19934<br />
 		    (302) 990-2776</p>
 		</address>
 	</div>

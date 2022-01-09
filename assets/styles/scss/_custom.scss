@@ -1,35 +1,77 @@
 .iss-navbar {
 	background: #3b4449;
-	height: 150px;
+	height: 100px;
 	transition: 0.4s ease-in-out;
-	padding-top: 10px;
+	padding-top: 0px;
 	border-bottom: 2px solid #81db6d;
 }
-.intro {
-	padding-top: 10rem;
+.int-home {
+	height: 520px;
 }
-.shrink {
-	height: 80px;
-	transition: 0.4s ease-in-out;
-	font-size: 0.75em;
+.text-shadow {
+	text-shadow: 2px 2px 0px #222;
 }
-.iss-nav-logo {
-	width: 220px;
-	transition: 0.4s ease-in-out;
+.video-hero {
+	height: 520px;
+	width: 100%;
+	background-image: url('../../../../uploads/iss-video-poster.png'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	&:before {
+			content: '';
+			background: rgba(0,112,245,0.3);
+	    	width: 100%;
+	    	height: 620px;
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	z-index: 1;
+    	}
 	@include breakpoint (sm) {
-		width: 289px;
+		height: 520px;
+		background-color: #222;
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		&:before {
+			content: '';
+			background: rgba(0,112,245,0.3);
+	    	width: 100%;
+	    	height: 620px;
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	z-index: 1;
+    	}
 	}
 }
-.shrink .iss-nav-logo {
-	width: 150px;
-	transition: 0.4s ease-in-out;
+.video-text {
+	position: relative;
+	height: 400px;
+	margin-top: -400px;
+	color: #fff;
+	display: block;
+	z-index: 2;
+	@include breakpoint (sm) {
+		position: relative;
+		color: #fff;
+		padding-top: 5rem;
+		padding-left: 1.4rem;
+		display: block;
+		height: 520px;
+		margin-top: -520px;
+		z-index: 2;
+	}
 }
-.hero-area {
-	min-height: 800px;
-	background: #222;
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
+#video1 { 
+	margin:0 auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    z-index: -1;
 }
 .home-about {
 	min-height: 280px;
@@ -39,18 +81,11 @@
 	min-height: 100px;
 	background: #888;
 }
-.kill-x-padding {
-	padding-right: 0px; 
-	padding-left: 0px;
-}
-.kill-x-margins {
-	margin-left: -15px;
-	margin-right: -15px;
-}
 .home-process {
 	min-height: 700px;
 	background: #2e5266;
 	margin-bottom: -15px;
+	border-top: 2px solid #81db6d;
 }
 .home-showcase {
 	min-height: 600px;
@@ -61,7 +96,6 @@
 	background: #303030;
 	border-top: 2px solid #81db6d;
 }
-
 .footer {
 	background: #202020;
 	min-height: 150px;
