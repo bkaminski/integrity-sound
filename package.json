@@ -48,6 +48,7 @@
     "minimist": "^1.2.5"
   },
   "dependencies": {
+    "browser-sync": "^2.27.7",
     "browserslist": "^4.19.1",
     "copy-props": "^3.0.1",
     "glob-parent": "^6.0.2",
