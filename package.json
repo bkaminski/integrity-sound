@@ -42,7 +42,7 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "resolutions": {
     "minimist": "^1.2.5"
