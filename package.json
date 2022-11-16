@@ -42,13 +42,13 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.7"
   },
   "resolutions": {
     "minimist": "^1.2.5"
   },
   "dependencies": {
-    "browser-sync": "^2.27.7",
+    "browser-sync": "^2.27.10",
     "browserslist": "^4.19.1",
     "copy-props": "^3.0.1",
     "glob-parent": "^6.0.2",
@@ -60,6 +60,7 @@
     "node-sass": "^4.14.1",
     "path-parse": "^1.0.7",
     "postcss": "^8.4.5",
+    "socket.io-parser": "^4.2.1",
     "tar": "^6.1.11",
     "trim-newlines": "^4.0.2",
     "y18n": "^5.0.8",
