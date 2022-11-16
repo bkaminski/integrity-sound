@@ -48,6 +48,7 @@
     "minimist": "^1.2.5"
   },
   "dependencies": {
+    "ansi-regex": "^6.0.1",
     "browser-sync": "^2.27.10",
     "browserslist": "^4.19.1",
     "copy-props": "^3.0.1",
@@ -56,12 +57,13 @@
     "ini": "^2.0.0",
     "json-schema": "^0.4.0",
     "lodash": "^4.17.21",
+    "lodash.template": "^4.5.0",
     "node-notifier": "^10.0.0",
     "node-sass": "^4.14.1",
     "path-parse": "^1.0.7",
     "postcss": "^8.4.5",
     "socket.io-parser": "^4.2.1",
-    "tar": "^6.1.11",
+    "tar": "^6.1.12",
     "trim-newlines": "^4.0.2",
     "y18n": "^5.0.8",
     "yargs-parser": "^20.0.0"
