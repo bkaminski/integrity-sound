@@ -64,7 +64,7 @@
     "node-sass": "^4.14.1",
     "path-parse": "^1.0.7",
     "postcss": "^8.4.5",
-    "socket.io-parser": "^4.2.1",
+    "socket.io-parser": "^4.2.3",
     "tar": "^6.1.12",
     "trim-newlines": "^4.0.2",
     "y18n": "^5.0.8",
