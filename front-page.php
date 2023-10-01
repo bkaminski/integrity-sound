@@ -6,6 +6,8 @@
 
 <?php get_template_part( 'parts/home', 'process' ); ?>
 
+<?php get_template_part( 'parts/home', 'carousel' ); ?>
+
 <?php get_template_part( 'parts/page', 'cta' ); ?>
 
 <?php get_footer(); ?>
